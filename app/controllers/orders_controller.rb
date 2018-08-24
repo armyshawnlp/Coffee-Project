@@ -6,18 +6,14 @@ class OrdersController < ApplicationController
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.all
 
-    # if params[:order_date]
-    #   @orders = Order.where('order_date_id = ?', "#{params[:order_date]}"
-    #   ).paginate(:page => params[:page], per_page: 20).order('id DESC')
+    # if params[:order]
+    #   @orders = Order.where('order_date = ?', "#{params[:order]}")
     # elsif params[:start_date]
-    #   @orders = Order.where('date BETWEEN ? AND ?', "#{params[:start_date]}", "#{params[:end_date]}"
-    #   ).paginate(:page => params[:page], per_page: 20).order('id DESC')
+    #   @orders = Order.where('date BETWEEN ? AND ?', "#{params[:start_date]}", "#{params[:end_date]}")
     # else
-    #   @orders = Order.paginate(page: params[:page], per_page: 20).order('id DESC')
+      @orders = Order.all
     # end
-
   end
 
   # GET /orders/1
@@ -86,6 +82,7 @@ class OrdersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def order_params
-      params.require(:order).permit(:name, :sub_total, :total_amount, :tax, :order_date, :id, :order_items_attributes => [:order_id, :product_id, :id])
+      params.require(:order).permit(:name, :sub_total, :total_amount, :tax, :order_date, :start_date, :end_date,
+      :id, :order_items_attributes => [:order_id, :product_id, :id])
     end
 end
