@@ -1,13 +1,13 @@
 <br>
-<h3>Report</h3>
+<h3>Sales</h3>
 
-<!--<span class="report">-->
-<!--    <p><b>Search orders in date range</b></p>-->
-<!--    <b>Start Date </b><%#= date_field_tag "start_date", params[:start_date], :class => "date" %>-->
-<!--  <b>End Date </b><%#= date_field_tag "end_date", params[:end_date], :class => "date" %>-->
-  <%#= submit_tag 'Search By Date', name: nil, :class => 'search' %>
-<!--</span>-->
-<!--<br><br>-->
+<span class="report">
+    <p><b>Search orders in date range</b></p>
+    <b>Start Date </b><%= date_field_tag "start_date", params[:start_date], :class => "date" %>
+  <b>End Date </b><%= date_field_tag "end_date", params[:end_date], :class => "date" %>
+  <%= submit_tag 'Search By Date', name: nil, :class => 'search' %>
+</span>
+<br><br>
 
 <table class="table">
   <thead class="thead-dark">
