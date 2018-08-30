@@ -34,6 +34,7 @@
     background-color: #856046;
     border-color: #6A5750;
     color: white;
+    float: right;
 }
 
 .logged_in_nav {
@@ -45,6 +46,7 @@
 
 .logout {
     background-color: #856046;
+    float: right;
 }
 
 
