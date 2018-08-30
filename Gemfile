@@ -6,11 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 gem 'better_errors'
-ruby '2.4.3'
 gem 'pg'
 gem 'binding_of_caller'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
+ruby '2.4.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
