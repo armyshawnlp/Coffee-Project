@@ -31,7 +31,7 @@
 }
 
 .login {
-    background-color: #8B0000;
+    background-color: #856046;
     border-color: #6A5750;
     color: white;
 }
@@ -44,7 +44,7 @@
 }
 
 .logout {
-    background-color: #8B0000;
+    background-color: #856046;
 }
 
 
@@ -149,7 +149,7 @@ a:hover {
 
 a:link {
     text-decoration:none;
-    color:black;
+    color:antiquewhite;
 }
 
 /*---Visited Link---*/
@@ -163,14 +163,14 @@ body {
     background: url('wallpaper.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 18px;
     margin: 0;
 }
 
 
 p, ol, ul, td {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
 }
 /* this color wont work because dark in the table means black */
@@ -178,6 +178,8 @@ th {
     padding: 0 5px 7px;
     border: 5px solid #C7A693;
 }
+
+
 
 .thead1{
     background-color: #382c29;

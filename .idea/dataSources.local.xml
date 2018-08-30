@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="4rils_project_development@localhost [2]" uuid="b451cc53-503a-4707-8d1d-12da9b0f7452">
-      <database-info product="PostgreSQL" version="10.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+      <database-info product="PostgreSQL" version="9.6.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="9.6.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -11,7 +11,7 @@
       <introspection-schemas>postgres:public</introspection-schemas>
     </data-source>
     <data-source name="4rils_project_test@localhost" uuid="5ef86566-d1d3-457e-bb38-a056f04ca7c1">
-      <database-info product="PostgreSQL" version="10.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+      <database-info product="PostgreSQL" version="9.6.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="9.6.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -20,7 +20,7 @@
       <introspection-schemas>postgres:public</introspection-schemas>
     </data-source>
     <data-source name="4rils_project_production@localhost" uuid="8096e3b8-fe5e-4f06-80a7-f95665e1d32d">
-      <database-info product="PostgreSQL" version="10.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+      <database-info product="PostgreSQL" version="9.6.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="10.3">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />

@@ -16,15 +16,15 @@ h3 {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  color: black;
+  color: antiquewhite;
 }
 
 /*table row*/
-.table tr:nth-child(even){background-color: whitesmoke;}
-.table tr:nth-child(odd){background-color: #DCDCDC	;}
+.table tr:nth-child(even){background-color: #C7A693;}
+.table tr:nth-child(odd){background-color: #856046	;}
 
 /*hover*/
-.table tr:hover {background-color: #C0C0C0;}
+.table tr:hover {background-color: #C7A69380;}
 
 /*table header*/
 .table th {
