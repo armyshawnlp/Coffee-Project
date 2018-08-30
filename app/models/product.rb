@@ -1,13 +1,8 @@
 class Product < ApplicationRecord
 
-  has_many :order_products
-  has_many :orders, through: :order_products
+  has_many :order_items, dependent: :destroy
+  has_many :orders, through: :order_items
 
-  def decrementqty
-    self.product.decrement!(:remaining_quantity)
-  end
-
-  after_save :decrementqty
 
   validates :image_url, allow_blank: true, format: {
       with: %r{\.(gif|jpg|png)\Z}i,
