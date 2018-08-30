@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'better_errors'
-
+ruby '2.4.3'
 gem 'pg'
 gem 'binding_of_caller'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -58,3 +58,5 @@ gem 'devise'
 gem 'bootstrap', '~> 4.0.0'
 
 gem 'will_paginate', '~> 3.1.0'
+
+gem 'heroku'
