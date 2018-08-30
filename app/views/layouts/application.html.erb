@@ -25,7 +25,7 @@
 
     <div class="one">
       <!--<img src="https://png.pngtree.com/element_origin_min_pic/16/09/23/1257e4b57685460.jpg" align="left" width="100px" height="100" border="2px">-->
-      <center><h2>Coffee Ordering System</h2></center>
+      <center><h2>Coffee and Chill</h2></center>
 
     </div>
     <div class="two">
@@ -39,7 +39,7 @@
 
           <% if current_user.try(&:manager) %>
           <li><b><%= link_to image_tag("employee.png", width: '20px') + " Employees", employees_path%></b></li>
-          <li><b><%= link_to image_tag("sale.png", width: '20px') + " Sales", order_report_index_path%></b></li>
+<!--          <li><b><%#= link_to image_tag("report.png", width: '20px') + " Report", order_report_index_path%></b></li>-->
           <li><b><%= link_to image_tag("user.png", width: '20px') + " Users", users_path%></b></li>
           <% end %>
         <% if user_signed_in? %>

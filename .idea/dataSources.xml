@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Rails Project_Practice: test" uuid="3c72f12e-9fe3-4b1a-b769-40e9662449ea">
+    <data-source source="LOCAL" name="4rils_project_development@localhost [2]" uuid="b451cc53-503a-4707-8d1d-12da9b0f7452">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:rils_project_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Rails Project_Practice: production" uuid="ec679331-f5ff-46fd-8b96-0c753ac6bf26">
+    <data-source source="LOCAL" name="4rils_project_test@localhost" uuid="5ef86566-d1d3-457e-bb38-a056f04ca7c1">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:rils_project_production</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Rails Project_Practice: development" uuid="2eb5e897-b216-47f2-a751-68c2bb2f6cf4">
+    <data-source source="LOCAL" name="4rils_project_production@localhost" uuid="8096e3b8-fe5e-4f06-80a7-f95665e1d32d">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:rils_project_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -15,3 +15,12 @@
 //= require_tree .
 
 
+jQuery(function(){
+    jQuery('#start_date').val("");
+    jQuery('#start_date').datepicker({dateFormat: 'dd-mm-yy'});
+});
+
+jQuery(function(){
+    jQuery('#end_date').val("");
+    jQuery('#end_date').datepicker({dateFormat: 'dd-mm-yy'});
+});
